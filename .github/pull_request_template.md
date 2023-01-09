@@ -5,6 +5,7 @@ Your PR title should be prefixed with the Jira ticket ID, e.g. "ADX-123 very imp
 ## Description
 
 Please include a summary of the change(s).
+You should also include screenshots or videos of UI changes.
 
 You should include a link to the JIRA ticket and also a sentence summary of the motivation.
 
