@@ -60,3 +60,4 @@ You may not need to check all boxes.
 - [ ] My changes generate no new warnings.
 - [ ] I have performed a self-review of my own code.
 - [ ] I have assigned at least one reviewer.
+- [ ] I have assigned at least one label to this PR: "patch", "minor", "major".
