@@ -33,7 +33,7 @@ body:
       label: Access
       description: Have you provided the engineering team with access credentials to the data source? Usually this will be a API access token.
       options:
-        - label: Yes
+        - label: "Yes"
           required: true
   - type: textarea
     id: load
