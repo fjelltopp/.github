@@ -1,0 +1,53 @@
+name: Pipeline Request
+description: Request a new data pipeline or an enhancement to an existing pipeline or pour (only applicable to ELT and ETL projects).
+title: "[Pipeline]: "
+labels: ["enhancement"]
+projects: []
+assignees:
+  - ChasNelson1990
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this pipeline request!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com or @slack-handle
+    validations:
+      required: false
+  - type: textarea
+    id: extract
+    attributes:
+      label: Extraction
+      description: Please provide a clear and concise description of the data you would like to extract. Include any relevant details such as the source, format, and frequency of the data.
+      placeholder: Tell us what data you need and where it currently is.
+      value: "I need to extract data from the WHO AFRO website. The data is in CSV format, can be downloaded from www.mydata.com and is updated daily."
+    validations:
+      required: true
+  - type: checkboxes
+    id: access
+    attributes:
+      label: Access
+      description: Have you provided the engineering team with access credentials to the data source? Usually this will be a API access token.
+      options:
+        - label: Yes
+          required: true
+  - type: textarea
+    id: load
+    attributes:
+      label: Loading
+      description: Please provide a clear and concise description of how you would like the data to be loaded into the regional data hub. Include any relevant metadata details and file format options.
+      placeholder: Tell us how the data should look in the data catalogue.
+      value: "I would like the data to be loaded into the regional data hub as a new dataset. The data should be stored as a single CSV file with the following metadata: title, description, source, and frequency."
+    validations:
+      required: true
+  - type: textarea
+    id: transform
+    attributes:
+      label: Transformations
+      description: Please provide a clear and concise description of any transformations you would like applied to the data during the ETL process. Include any relevant details such as data cleaning, normalization, or aggregation. Please attach any code scripts that you currently have for this process.
+      placeholder: Tell us how the data should be transformed before / after being loaded into the data hub.
+      value: "I would like the data to be cleaned and normalized before being loaded into the data hub. This will involve removing any duplicate records and standardizing the date format."
