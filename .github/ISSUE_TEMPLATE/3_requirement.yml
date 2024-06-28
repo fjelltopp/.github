@@ -1,3 +1,11 @@
 name: Project Requirement
 description: Document a client or project requirement (usually only done at the start of a project)
 labels: ["requirement"]
+body:
+  - type: textarea
+    id: requirement
+    attributes:
+      label: Requirement
+      description: Provide the full text of the requirement plus any additional information available, e.g. task lists, etc.
+    validations:
+      required: true
