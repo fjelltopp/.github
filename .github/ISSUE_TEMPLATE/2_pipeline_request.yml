@@ -1,10 +1,8 @@
 name: Pipeline Request
 description: Request a new data pipeline or an enhancement to an existing pipeline or pour (only applicable to ELT and ETL projects).
-title: "[Pipeline]: "
-labels: ["enhancement"]
+labels: ["pipeline"]
 projects: []
-assignees:
-  - ChasNelson1990
+assignees: []
 body:
   - type: markdown
     attributes:
