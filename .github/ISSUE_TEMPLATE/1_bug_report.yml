@@ -1,9 +1,8 @@
 name: Bug Report
 description: File a bug report.
-title: "[Bug]: "
 labels: ["bug"]
 projects: []
-assignees: "ChasNelson1990"
+assignees: []
 body:
   - type: markdown
     attributes:
