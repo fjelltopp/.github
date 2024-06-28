@@ -1,0 +1,3 @@
+name: Project Requirement
+description: Document a client or project requirement (usually only done at the start of a project)
+labels: ["requirement"]
