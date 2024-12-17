@@ -1,18 +1,16 @@
 ## Title (delete after following this rule)
 
-Your PR title should be prefixed with the Jira ticket ID, e.g. "ADX-123 very important feature".
+Your PR title should be prefixed with a Conventional Commit tag (https://www.conventionalcommits.org/en/v1.0.0/; e.g. `feat:` or `fix:`).
 
 ## Description
 
-Please include a summary of the change(s).
+Please include a summary of the change(s) and a sentence summary of the motivation.
 You should also include screenshots or videos of UI changes.
 
-You should include a link to the JIRA ticket and also a sentence summary of the motivation.
-
-Don't forget to reference all other pull requests which are associated to this one below, especially if merging need to be coordinated.
+Don't forget to reference all issues and other pull requests which are associated to this one below, especially if merging need to be coordinated.
 E.g.
-
-relates fjelltopp/repository_name#issue_number
+closes #issue_numner
+relates fjelltopp/repository_name#pull_request_number
 
 ## Dependency Changes (delete if not applicable)
 
@@ -49,7 +47,7 @@ If new translations are required, have you created new Jira tickets for each lan
 Put an `x` in the boxes that apply to this pull request (you can also fill these out after opening the pull request).
 You may not need to check all boxes.
 
-- [ ] The Jira ticket for this issue has been updated to "Ready to Review" or equivalent.
+- [ ] The GitHub ticket for this issue has been updated to "Ready to Review" or equivalent.
 - [ ] I have developed these changes in discussion with the appropriate project manager.
 - [ ] My code follows the general Fjelltopp documentation (see Confluence).
 - [ ] I have made corresponding changes to the Fjelltopp documentation (see Confluence).
